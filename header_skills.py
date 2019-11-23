@@ -1,3 +1,5 @@
+#TODO: FIX ME!: REF https://github.com/chenkarl/MountBlade_FengyunSanGuo/blob/808a61c079e30eb8f614ef66df6b56646e1382de/Module_system%201.158/header_skills.py
+
 sf_base_att_str         = 0x000
 sf_base_att_agi         = 0x001
 sf_base_att_int         = 0x002
