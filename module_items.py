@@ -8091,7 +8091,7 @@ items = [
       (agent_set_slot, ":var0", 67, 1),
       (agent_get_team, ":var4", ":var0"),
       (agent_set_slot, ":var0", 68, ":var4"),
-      (store_skill_level, ":var5", 18, ":var1"),
+      (store_skill_level, ":var5", skl_magic_control, ":var1"),
       (call_script, "script_player_cast_spell", ":var0", ":var1", ":var5", ":var2"),
       (assign, ":var6", reg5),
       (try_begin),

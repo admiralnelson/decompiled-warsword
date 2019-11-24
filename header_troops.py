@@ -207,6 +207,8 @@ cha_30           = bignum | 0x1e000000
 level_mask       = 0x000000FF
 level_bits       = 32
 
+troopMagicType = 226
+
 def level(v):
   if (v > level_mask):
     v = level_mask
