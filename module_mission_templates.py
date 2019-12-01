@@ -12,6 +12,7 @@ from header_sounds import *
 from header_music import *
 from header_items import *
 from module_constants import *
+from module_scripts import *
 
 ####################################################################################################################
 #   Each mission-template is a tuple that contains the following fields:
@@ -62,6 +63,9 @@ magic_trigger = (
       (gt, ":len", 1),
       (log, "@DEBUG: checks success! (line 8)"),
       (log, "@var_dump(':len') => {reg1} (line 9)"),
+    ]+VarDumpList("trp_list_08", "troop")
+     +     
+    [
       (assign, "$windsofmagic", 0),
       (store_random_in_range, ":random", 1, 9),
       (val_add, "$windsofmagic", ":random"),

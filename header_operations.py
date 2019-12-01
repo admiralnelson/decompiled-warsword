@@ -2414,3 +2414,17 @@ can_fail_operations += [
 	lua_triggerCallback,
 ]
 
+
+log = display_message
+div = store_div
+sub = store_sub
+ForLoop = try_for_range
+Call = call_script
+Set = assign
+Begin = try_begin
+End = try_end
+EndLoop = try_end
+EndIf = try_end
+If  = Begin
+Else = else_try
+ElseIf = else_try
