@@ -2418,6 +2418,7 @@ can_fail_operations += [
 log = display_message
 div = store_div
 sub = store_sub
+add = store_add
 ForLoop = try_for_range
 Call = call_script
 Set = assign

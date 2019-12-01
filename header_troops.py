@@ -207,7 +207,10 @@ cha_30           = bignum | 0x1e000000
 level_mask       = 0x000000FF
 level_bits       = 32
 
+#slots
 troopMagicType = 226
+troopSpellProefficiencyBegin = 500
+troopSpellProefficiencyEnd = 768
 
 def level(v):
   if (v > level_mask):

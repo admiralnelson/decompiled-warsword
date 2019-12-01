@@ -10,7 +10,7 @@ from header_items import *
 from header_mission_templates import *
 from header_music import *
 from header_terrain_types import *
-
+from header_troops import *
 from module_constants import *
 
 ####################################################################################################################
@@ -26427,7 +26427,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Life.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 3),
+        (troop_set_slot, "trp_player", troopMagicType, 3),
         (troop_add_item, "trp_player", "itm_player_missile_jade"),
         (display_message, "@You are now a practitioner of the Lore of Life"),
         (jump_to_menu, "$last_menu2"),
@@ -26499,7 +26499,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Metal.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 2),
+        (troop_set_slot, "trp_player", troopMagicType, 2),
         (troop_add_item, "trp_player", "itm_player_missile_gold"),
         (display_message, "@You are now a practitioner of the Lore of Metal"),
         (jump_to_menu, "$last_menu2"),
@@ -26571,7 +26571,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Light.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 1),
+        (troop_set_slot, "trp_player", troopMagicType, 1),
         (troop_add_item, "trp_player", "itm_player_missile_light"),
         (display_message, "@You are now a practitioner of the Lore of Light"),
         (jump_to_menu, "$last_menu2"),
@@ -26643,7 +26643,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Heavens.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 4),
+        (troop_set_slot, "trp_player", troopMagicType, 4),
         (troop_add_item, "trp_player", "itm_player_missile_celestial"),
         (display_message, "@You are now a practitioner of the Lore of Heavens"),
         (jump_to_menu, "$last_menu2"),
@@ -26715,7 +26715,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Shadows.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 5),
+        (troop_set_slot, "trp_player", troopMagicType, 5),
         (troop_add_item, "trp_player", "itm_player_missile_grey"),
         (display_message, "@You are now a practitioner of the Lore of Shadows"),
         (jump_to_menu, "$last_menu2"),
@@ -26787,7 +26787,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Death.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 6),
+        (troop_set_slot, "trp_player", troopMagicType, 6),
         (troop_add_item, "trp_player", "itm_player_missile_amethyst"),
         (display_message, "@You are now a practitioner of the Lore of Death"),
         (jump_to_menu, "$last_menu2"),
@@ -26859,7 +26859,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Fire.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 7),
+        (troop_set_slot, "trp_player", troopMagicType, 7),
         (troop_add_item, "trp_player", "itm_player_missile_bright"),
         (display_message, "@You are now a practitioner of the Lore of Fire"),
         (jump_to_menu, "$last_menu2"),
@@ -26931,7 +26931,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Beasts.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 8),
+        (troop_set_slot, "trp_player", troopMagicType, 8),
         (troop_add_item, "trp_player", "itm_player_missile_amber"),
         (display_message, "@You are now a practitioner of the Lore of Beasts"),
         (jump_to_menu, "$last_menu2"),
@@ -27003,7 +27003,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_High_Magic.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 9),
+        (troop_set_slot, "trp_player", troopMagicType, 9),
         (troop_add_item, "trp_player", "itm_player_missile_qhaysh"),
         (display_message, "@You are now a practitioner of the Lore of High Magic"),
         (jump_to_menu, "$last_menu2"),
@@ -27075,7 +27075,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Dark_Magic.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 10),
+        (troop_set_slot, "trp_player", troopMagicType, 10),
         (troop_add_item, "trp_player", "itm_player_missile_dhar"),
         (display_message, "@You are now a practitioner of the Lore of Dark Magic"),
         (jump_to_menu, "$last_menu2"),
@@ -27147,7 +27147,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Undeath.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 11),
+        (troop_set_slot, "trp_player", troopMagicType, 11),
         (troop_add_item, "trp_player", "itm_player_missile_necromantic"),
         (display_message, "@You are now a practitioner of the Lore of Undeath"),
         (troop_get_type, ":var0", "trp_player"),
@@ -27226,7 +27226,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Tzeentch.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 12),
+        (troop_set_slot, "trp_player", troopMagicType, 12),
         (troop_add_item, "trp_player", "itm_player_missile_tzeentch"),
         (display_message, "@You are now a practitioner of the Lore of Tzeentch"),
         (jump_to_menu, "$last_menu2"),
@@ -27298,7 +27298,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Slaanesh.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 13),
+        (troop_set_slot, "trp_player", troopMagicType, 13),
         (troop_add_item, "trp_player", "itm_player_missile_slaanesh"),
         (display_message, "@You are now a practitioner of the Lore of Slaanesh"),
         (jump_to_menu, "$last_menu2"),
@@ -27370,7 +27370,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Nurgle.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 14),
+        (troop_set_slot, "trp_player", troopMagicType, 14),
         (troop_add_item, "trp_player", "itm_player_missile_nurgle"),
         (display_message, "@You are now a practitioner of the Lore of Nurgle"),
         (jump_to_menu, "$last_menu2"),
@@ -27442,7 +27442,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Da_Big_Waaagh.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 15),
+        (troop_set_slot, "trp_player", troopMagicType, 15),
         (troop_add_item, "trp_player", "itm_player_missile_orc"),
         (display_message, "@You are now a practitioner of the Lore of Da Big Waaagh"),
         (jump_to_menu, "$last_menu2"),
@@ -27514,7 +27514,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Da_Little_Waaagh.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 16),
+        (troop_set_slot, "trp_player", troopMagicType, 16),
         (troop_add_item, "trp_player", "itm_player_missile_goblin"),
         (display_message, "@You are now a practitioner of the Lore of Da Little Waaagh"),
         (jump_to_menu, "$last_menu2"),
@@ -27586,7 +27586,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Ruin.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 17),
+        (troop_set_slot, "trp_player", troopMagicType, 17),
         (troop_add_item, "trp_player", "itm_player_missile_ruin"),
         (display_message, "@You are now a practitioner of the Lore of Ruin"),
         (jump_to_menu, "$last_menu2"),
@@ -27658,7 +27658,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Plague.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 18),
+        (troop_set_slot, "trp_player", troopMagicType, 18),
         (troop_add_item, "trp_player", "itm_player_missile_plague"),
         (display_message, "@You are now a practitioner of the Lore of Plague"),
         (jump_to_menu, "$last_menu2"),
@@ -27730,7 +27730,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Nehekhara.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 19),
+        (troop_set_slot, "trp_player", troopMagicType, 19),
         (troop_add_item, "trp_player", "itm_player_missile_nehekhara"),
         (display_message, "@You are now a practitioner of the Lore of Nehekhara"),
         (jump_to_menu, "$last_menu2"),
@@ -27802,7 +27802,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_Ice.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 20),
+        (troop_set_slot, "trp_player", troopMagicType, 20),
         (troop_add_item, "trp_player", "itm_player_missile_ice"),
         (display_message, "@You are now a practitioner of the Lore of Ice"),
         (jump_to_menu, "$last_menu2"),
@@ -27874,7 +27874,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_the_Desert.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 21),
+        (troop_set_slot, "trp_player", troopMagicType, 21),
         (troop_add_item, "trp_player", "itm_player_missile_desert"),
         (display_message, "@You are now a practitioner of the Lore of the Desert"),
         (jump_to_menu, "$last_menu2"),
@@ -27946,7 +27946,7 @@ game_menus = [
       "Yes,_I_commit_myself_to_the_Lore_of_the_Wild.",
       [
         (troop_set_slot, "trp_player", 225, 1),
-        (troop_set_slot, "trp_player", 226, 22),
+        (troop_set_slot, "trp_player", troopMagicType, 22),
         (troop_add_item, "trp_player", "itm_player_missile_wild"),
         (troop_set_slot, "trp_player", 228, 5),
         (display_message, "@You are now a practitioner of the Lore of the Wild"),
