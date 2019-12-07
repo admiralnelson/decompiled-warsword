@@ -26,3 +26,6 @@ from ID_sounds import *
 from ID_strings import *
 from ID_tableau_materials import *
 from ID_troops import *
+
+
+INITIAL_MAGIC_PROEFFICIENCY = 60

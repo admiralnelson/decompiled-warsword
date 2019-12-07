@@ -60,10 +60,10 @@ magic_trigger = (
       (call_script, "script_list_count", "trp_list_08"),
       (assign, ":len", reg1),
       (val_add, ":len", 1),
-      (gt, ":len", 1),
+      #(gt, ":len", 1), disabled caused glitch (player can't gain mana anymore if list_08 is empty
       (log, "@DEBUG: checks success! (line 8)"),
-      (log, "@var_dump(':len') => {reg1} (line 9)"),
     ]+VarDumpList("trp_list_08", "troop")
+     +VarDump(":len")
      +     
     [
       (assign, "$windsofmagic", 0),
