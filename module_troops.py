@@ -9057,3 +9057,5 @@ upgrade(troops,"hunter_woman","fighter_woman")
 upgrade(troops,"fighter_woman","sword_sister")
 upgrade(troops,"refugee","follower_woman")
 upgrade(troops,"peasant_woman","follower_woman")
+
+print(troops[8])

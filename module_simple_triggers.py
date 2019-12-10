@@ -1368,7 +1368,7 @@ simple_triggers = [
       (try_end),
       (display_message, "@PBOD Updated to version 0.{s1}"),
     (try_end),
-    (party_set_slot, "p_main_party", 46, 920),
+    (party_set_slot, "p_main_party", 46, 920),    
   ]),
 
   (24,
@@ -8036,3 +8036,5 @@ simple_triggers = [
   []),
 
 ]
+
+print(simple_triggers[30][1][12])

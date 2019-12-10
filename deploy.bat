@@ -1,0 +1,10 @@
+copy mission_templates.txt "F:\Steam\steamapps\common\MountBlade Warband\Modules\Warsword_Conquest_WOME_Beta_Patch_2\mission_templates.txt"
+copy menus.txt "F:\Steam\steamapps\common\MountBlade Warband\Modules\Warsword_Conquest_WOME_Beta_Patch_2\menus.txt"
+copy scripts.txt "F:\Steam\steamapps\common\MountBlade Warband\Modules\Warsword_Conquest_WOME_Beta_Patch_2\scripts.txt"
+copy quick_strings.txt "F:\Steam\steamapps\common\MountBlade Warband\Modules\Warsword_Conquest_WOME_Beta_Patch_2\quick_strings.txt"
+copy conversation.txt "F:\Steam\steamapps\common\MountBlade Warband\Modules\Warsword_Conquest_WOME_Beta_Patch_2\conversation.txt"
+copy simple_triggers.TXT "F:\Steam\steamapps\common\MountBlade Warband\Modules\Warsword_Conquest_WOME_Beta_Patch_2\simple_triggers.TXT"
+copy presentations.txt "F:\Steam\steamapps\common\MountBlade Warband\Modules\Warsword_Conquest_WOME_Beta_Patch_2\presentations.txt"
+copy triggers.txt "F:\Steam\steamapps\common\MountBlade Warband\Modules\Warsword_Conquest_WOME_Beta_Patch_2\triggers.txt"
+pause
+"F:\Steam\steamapps\common\MountBlade Warband\WSELoader.exe"

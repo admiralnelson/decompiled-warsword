@@ -2431,3 +2431,7 @@ EndIf = try_end
 If  = Begin
 Else = else_try
 ElseIf = else_try
+TRUE = 1
+FALSE = 0
+NIL = -1
+

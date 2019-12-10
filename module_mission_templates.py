@@ -62,10 +62,12 @@ magic_trigger = (
       (val_add, ":len", 1),
       #(gt, ":len", 1), disabled caused glitch (player can't gain mana anymore if list_08 is empty
       (log, "@DEBUG: checks success! (line 8)"),
-    ]+VarDumpList("trp_list_08", "troop")
-     +VarDump(":len")
-     +     
-    [
+    
+    #]#+VarDumpList("trp_list_08", "troop")
+     #+VarDump(":len")
+     #+     
+    #[
+    
       (assign, "$windsofmagic", 0),
       (store_random_in_range, ":random", 1, 9),
       (val_add, "$windsofmagic", ":random"),
